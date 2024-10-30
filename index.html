@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+    <title>Text float🔠</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Bungee Spice", sans-serif;
+        }
+
+        
+      body {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: black;
+      }
+
+      h1{
+        font-size: 50px;
+        text-shadow: -3px 10px 10px rgba(255, 255, 255, 0.5);
+        color: rgb(175, 58, 238);
+        text-transform: uppercase;
+        text-align: center;
+        animation: floating-text 2s linear infinite alternate;
+      }
+
+      @keyframes floating-text {
+        0%{
+            rotate: 20deg;
+        }
+        50%{
+            rotate: 0deg;
+        }
+        100%{
+            rotate: -20deg;
+        }
+      }
+
+    </style>
+</head>
+<body>
+    <h1>text float</h1>
+</body>
+</html>
